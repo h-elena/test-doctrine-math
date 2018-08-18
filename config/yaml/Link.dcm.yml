@@ -1,0 +1,13 @@
+Link:
+  type: entity
+  table: links
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: AUTO
+  fields:
+    real_url:
+      type: text
+    code:
+      type: string
